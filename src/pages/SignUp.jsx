@@ -43,15 +43,15 @@ export default function SignUp() {
         <div className='w-[120px] rounded p-[2px] bg-[#E76F2E]'></div>
         <form className="flex flex-col gap-4 w-full max-w-sm mt-6">
 
-          <label htmlFor="name">Full name</label>
-          <input type="text" placeholder="Fullname eg. John Doe" className="..." />
+          <label htmlFor="name" className='text-[#3E2C23] font-bold capitalize'>Full name</label>
+          <input type="text" placeholder="John Doe" className="rounded" />
 
-          <label htmlFor="email">email address</label>
-          <input type="email" placeholder="Email eg. jdoe@mytask.com" className="..." />
+          <label htmlFor="email" className='text-[#3E2C23] font-bold capitalize'>email address</label>
+          <input type="email" placeholder="jdoe@mytask.com" className="rounded" />
 
-          <label htmlFor="password">password</label>
-          <input type="password" />
-          <input type="submit" value="Create my account" className="bg-[#E76F2E] text-white ..." />
+          <label htmlFor="password" className='text-[#3E2C23] font-bold capitalize'>password</label>
+          <input type="password" className="rounded" placeholder='*********'/>
+          <input type="submit" value="Create my account" className="bg-[#E76F2E] text-white"/>
 
         <div className='flex flex-1 flex-col justify-center items-center'>
           <div className='flex flex-1 flex-col justify-center items-center'></div>
