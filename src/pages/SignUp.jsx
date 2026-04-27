@@ -59,6 +59,15 @@ export default function SignUp() {
             <p>or sign up with</p>
             <span className='w-[120px] rounded p-[2px] bg-[#E76F2E]'></span>
         </div>
+
+        <div>
+          <span className='google-opt'>Google</span>
+          <span className='apple-opt'>Apple</span>
+        </div>
+
+        <div>
+          <h3>Already have an account? <span>Sign in</span></h3>
+        </div>
         </form>
       </section>
 
