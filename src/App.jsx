@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import SignUp from './pages/SignUp.jsx'
+import Footer from './components/Footer.jsx'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
      <SignUp/>
+     <Footer/>
     </>
   )
 }
