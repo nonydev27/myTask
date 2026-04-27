@@ -53,11 +53,11 @@ export default function SignUp() {
           <input type="password" className="rounded" placeholder='*********'/>
           <input type="submit" value="Create my account" className="bg-[#E76F2E] text-white"/>
 
-        <div className='flex flex-1 flex-col justify-center items-center'>
-          <div className='flex flex-1 flex-col justify-center items-center'></div>
-          <span className='w-[120px] rounded p-[2px] bg-[#E76F2E]'></span>
+        <div className='flex items-center gap-4 mt-4'>
+        
+          <span className='w-[120px] rounded p-[1px] bg-[#E76F2E]'></span>
             <p>or sign up with</p>
-            <span className='w-[120px] rounded p-[2px] bg-[#E76F2E]'></span>
+            <span className='w-[120px] rounded p-[1px] bg-[#E76F2E]'></span>
         </div>
 
         <div>
