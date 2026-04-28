@@ -1,5 +1,5 @@
 :root {
-  --primaryor: #3E2C23;
+  --primary: #3E2C23;
   --secondary: #E76F2E;
   --accent: #F5E9D8;
   --blue: #2FA4D7;
@@ -14,3 +14,24 @@
 
 @import 'tailwindcss';
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Caveat&display=swap');
+
+input, select {
+  border: 1px solid var(--primary);
+  padding: 0.5rem;
+  border-radius: 0.45rem;
+  width: 100%;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: var(--secondary);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 0 1px rgba(231, 111, 46, 0.5);
+}
+
+.signup-opt {
+  border: 1px solid var(--primary);
+  padding: 0.5rem;
+  border-radius: 0.45rem;
+  width: 100%;
+}
