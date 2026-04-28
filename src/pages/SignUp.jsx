@@ -51,7 +51,7 @@ export default function SignUp() {
 
           <label htmlFor="password" className='text-[#3E2C23] font-bold capitalize'>password</label>
           <input type="password" className="rounded" placeholder='*********'/>
-          <input type="submit" value="Create my account" className="bg-[#E76F2E] text-white"/>
+          <input type="submit" value="Create my account" className="bg-[#E76F2E] text-white py-3 rounded-md font-bold"/>
 
         <div className='flex items-center gap-4 mt-4'>
         
@@ -60,12 +60,14 @@ export default function SignUp() {
             <span className='w-[120px] rounded p-[1px] bg-[#E76F2E]'></span>
         </div>
 
-        <div>
-          <span className='google-opt'>Google</span>
-          <span className='apple-opt'>Apple</span>
+        <div className='flex gap-4 mt-4 items-center justify-center'>
+         <img src="../assets/google.png" alt="Google" className='w-5'/> <span className='google-opt '> Google</span>
+
+
+         <img src="../assets/apple.png" alt="Apple" className='w-5'/> <span className='apple-opt'>Apple</span>
         </div>
 
-        <div>
+        <div className='flex items-center justify-center'>
           <h3>Already have an account? <span>Sign in</span></h3>
         </div>
         </form>
