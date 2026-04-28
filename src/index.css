@@ -3,6 +3,10 @@
   --secondary: #E76F2E;
   --accent: #F5E9D8;
   --blue: #2FA4D7;
+  --brand-orange: #E67E43;
+  --brand-bg: #F6EFE0;
+  --brand-text: #4A433A;
+  --brand-border: #D9CBB3;
 
 
   font-family: "Caveat", cursive;
@@ -34,4 +38,17 @@ input:focus, select:focus {
   padding: 0.5rem;
   border-radius: 0.45rem;
   width: 100%;
+  background: var(--brand-bg);
 }
+
+.signup-opt:hover {
+  background: var(--brand-orange);
+  color: white;
+  border-color: var(--brand-orange);
+  box-shadow: 0 0 0 1px rgba(230, 126, 67, 0.5);
+}
+/* 
+.rounded{
+  border-radius: 0.45rem !important;
+  background-color: var(--brand-bg);
+} */
